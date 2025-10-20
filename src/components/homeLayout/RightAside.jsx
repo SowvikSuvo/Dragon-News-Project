@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import SocialLogin from "./SocialLogin.JSX";
 
 const RightAside = () => {
-    return (
-        <div>
-            RightAside
-        </div>
-    );
+  return (
+    <div>
+      <SocialLogin></SocialLogin>
+    </div>
+  );
 };
 
 export default RightAside;
